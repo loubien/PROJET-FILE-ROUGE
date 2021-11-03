@@ -1,0 +1,49 @@
+
+h4{
+   color: #b9dbe5;
+   font-family: 'Roboto', sans-serif;
+}
+
+.bas-page{
+    display: flex;
+   text-align: center;
+   justify-content: space-between;
+    
+}
+footer{
+    background-color: #f3b17f;
+    color: #ffff;
+    bottom: 0;
+}
+.banniere{
+    background-image: url(Images/sushi-nav.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.bg-light {
+    background: transparent!important;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+/**
+.logo{
+    width: 250px;
+    height: 250px;
+    position: relative;
+
+
+}
+**/
+
