@@ -2,7 +2,6 @@
 <html lang="fr">
 
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -17,38 +16,40 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/f97858c559.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
-
     <header class="banniere  align-items-center">
         <div class="">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="index.html">
-                        <img src="logo.png" alt="" class="img-fluid w-25"></a>
+                        <img src="Images/logo.png" alt="" class="img-fluid"></a>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                         <ul class="menu navbar-nav">
-                            <li class="nav-item">
+                            <li class="nav-item text-end">
                                 <a class="nav-link text-light-white" href="index.html">ACCUEIL</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="apropos.html">A PROPOS</a>
+                            <li class="nav-item text-end">
+                                <a class="nav-link text-end" href="apropos.html">A PROPOS</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="photo.html">PHOTO</a>
+                            <li class="nav-item text-end">
+                                <a class="nav-link" href="photo.html">PHOTOS</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="article.html">ARTICLE</a>
+                            <li class="nav-item text-end">
+                                <a class="nav-link" href="article.html">ARTICLES</a>
+                            </li>
+                            <li class="nav-item text-end">
+                                <a class="nav-link" href="contact.html">CONTACT</a>
                             </li>
                         </ul>
-
                     </div>
                 </div>
             </nav>
         </div>
         <div class="d-flex align-items-center">
-            <h1 class="p-5">VOYAGE CULINAIRE D'ASIE</h1>
+            <h1 class="p-5 animate__animated animate__bounce">VOYAGE CULINAIRE D'ASIE</h1>
         </div>
     </header>
 
@@ -68,55 +69,58 @@
                     <label for="exampleFormControlInput1">Nous Suivre</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Instagram">
                 </div>
-
                 <button class="btn btn-dark mt-3">Envoyer</button>
             </form>
-
         </div>
-
-
+        <section>
+            <p class="p-3"></p>
+            <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.650339634327!2d4.89310051484432!3d45.758155421802684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4c1b5b3ccb787%3A0xe00f51c3c7eb8887!2s34%20Rue%20Antoine%20Primat%2C%2069100%20Villeurbanne!5e0!3m2!1sfr!2sfr!4v1636034184094!5m2!1sfr!2sfr
+                " " allowfullscreen="" loading=" lazy"></iframe>
+            </div>
+        </section>
     </div>
 
-
-
-
-
     <footer>
-        <div class="row">
+        <div class="row p-2">
             <div class="col-md-4">
-                <h3 class="text-center">Contact</h3>
+                <h5 class="text-center">CONTACT</h5>
                 <div class="row text-center">
                     <div class="col-12">
                         <i class="fas fa-phone-alt"></i>
                     </div>
                     <div class="col-12">
-                        <span><a href="#" class="text-white">0478787878</a></span>
+                        <span><a href="#" class="text-white text-decoration-none">0478787878</a></span>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                    <h3 class="text-center">Information - Conseil</h3>
-                    <div class="row text-center">
-                        <div class="col-12">
-                            <i class="fas fa-envelope-open"></i>
-                        </div>
-                        <div class="col-12">
-                            <span><a href="#" class="text-white">Voyageculinaire@gmail.com</a></span>
-                        </div>
-                    </div>
-            </div>
-            <div class="col-md-4">
-                <h3 class="text-center">Nous suivre</h3>
+                <h5 class="text-center">INFO CONSEIL</h5>
                 <div class="row text-center">
                     <div class="col-12">
-                        <i class="fab fa-instagram"></i>
+                        <i class="fas fa-envelope-open"></i>
                     </div>
                     <div class="col-12">
-                        <span><a href="https://www.instagram.com/?hl=fr" class="text-white">Instagram</a></span>
+                        <span><a href="#"
+                                class="text-white text-white text-decoration-none">Voyageculinaire@gmail.com</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h5 class="text-center">NOUS SUIVRE</h5>
+                <div class="row text-center">
+                    <div class="col-12">
+                        <a href="https://www.instagram.com/?hl=fr" class="text-white"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="col-12">
+                        <span><a href="https://www.instagram.com/?hl=fr"
+                                class="text-white text-white text-decoration-none">Instagram</a></span>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-
 </body>
+
+</html>

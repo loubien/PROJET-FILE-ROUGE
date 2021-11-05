@@ -3,6 +3,32 @@ h4{
    color: #b9dbe5;
    font-family: 'Roboto', sans-serif;
 }
+#couleurh1{
+    color: #b9dbe5;
+    font-family: 'Roboto', sans-serif;
+}
+.coul{
+    color: #b9dbe5;
+    font-family: 'Roboto', sans-serif;
+}
+.lionne{
+    color: #b9dbe5;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#bo{
+    margin-bottom: 2rem;
+}
+#saison{
+    margin-top: 5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+#salut{
+    border: none;
+}
 
 .bas-page{
     display: flex;
@@ -22,7 +48,7 @@ footer{
     height: 90vh;
 }
 
-.bg-light {
+.bg-light{
     background: transparent!important;
 }
 h1{
@@ -37,13 +63,24 @@ h2{
     font-family: 'Roboto', sans-serif;
 
 }
-/**
-.logo{
-    width: 250px;
-    height: 250px;
-    position: relative;
+iframe{
+    width: 95%; 
+    height: 90%;
+    margin-right: 1%;
+    margin-left: 3%;
+    
 
+    
+}
+
+.navbar-brand{
+    width: 6em;
 
 }
-**/
 
+@media (max-width: 900px) {
+
+    .navbar-brand {
+       width: 3em;
+    }
+}
